@@ -92,3 +92,61 @@ body{
     width: 150px;
     text-align: center;
 }
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 20%;
+}
+#author{
+    align-self: flex-end;
+    padding: 0 200px 0 0;
+    font-weight: bold;
+    font-size: 24px;
+}
+#quote{
+    align-self: center;
+    width: 65%;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.cta{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5% 20%;
+    border-radius: 15px
+}
+.cta-text{
+    padding: 3% 0;
+    color: #E5E7EB;
+}
+.cta-text h3{
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.cta-text p{
+    font-size: 18px;
+    margin-top: 0;
+}
+.cta button{
+    width: 150px;
+    height: 40px;
+    border: 3px solid #E5E7EB;
+    border-radius: 12px;
+    background: none;
+    font-weight: bolder;
+    color: #E5E7EB;
+    font-size: 16px;
+}
+.footer{
+    background-color: #1F2937;
+    height: 50px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
